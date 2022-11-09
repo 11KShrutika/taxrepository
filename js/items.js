@@ -37,7 +37,7 @@ $('#btn_save_items').click(function() {
 		col_3 : col_3,
 		isdelete : isdelete}
             $.ajax({
-                url: "../php/ items.php",
+                url: "../../php/ items.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -118,7 +118,7 @@ $('#btn_update_items').click(function() {
 		col_3 : col_3,
 		isdelete : isdelete}
             $.ajax({
-                url: "../php/ items.php",
+                url: "../../php/ items.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -242,7 +242,7 @@ isdelete : isdelete}
         }); 
 $('#btn_load_items').click(function() {  var itemsobject = {id : id}
             $.ajax({
-                url: "../php/items.php",
+                url: "../../php/items.php",
                 type: "POST",
                 data: {
                     "key":"getone",
@@ -268,7 +268,7 @@ $('#btn_load_items').click(function() {  var itemsobject = {id : id}
             });
         });$('#btn_loadall_items').click(function() { var itemsobject = {}
         $.ajax({
-            url: "../php/items.php",
+            url: "../../php/items.php",
             type: "POST",
             data: {
                 "key":"getalldata",

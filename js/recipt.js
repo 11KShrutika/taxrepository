@@ -35,7 +35,7 @@ $('#btn_save_recipt').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/recipt.php",
+                url: "../../php/recipt.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -113,7 +113,7 @@ $('#btn_update_recipt').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ recipt.php",
+                url: "../../php/ recipt.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -233,7 +233,7 @@ col_3 : col_3S}
         }); 
 $('#btn_load_recipt').click(function() { var reciptobject = {id : id}
             $.ajax({
-                url: "../php/recipt.php",
+                url: "../../php/recipt.php",
                 type: "POST",
                 data: {
                     "key":"getone",
@@ -259,7 +259,7 @@ $('#btn_load_recipt').click(function() { var reciptobject = {id : id}
             });
         });$('#btn_loadall_recipt').click(function() { var reciptobject = {}
         $.ajax({
-            url: "../php/recipt.php",
+            url: "../../php/recipt.php",
             type: "POST",
             data: {
                 "key":"getalldata",

@@ -28,7 +28,7 @@ $('#btn_save_billdetails').click(function() {
 		col_3 : col_3,
 		}
             $.ajax({
-                url: "../php/billdetails.php",
+                url: "../../php/billdetails.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -94,7 +94,7 @@ $('#btn_update_billdetails').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ billdetails.php",
+                url: "../../php/ billdetails.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -198,7 +198,7 @@ col_3 : col_3,
         }); 
 $('#btn_load_billdetails').click(function() { var billdetailsobject = {id : id}
             $.ajax({
-                url: "../php/billdetails.php",
+                url: "../../php/billdetails.php",
                 type: "POST",
                 data: {
                     "key":"getone",
@@ -224,7 +224,7 @@ $('#btn_load_billdetails').click(function() { var billdetailsobject = {id : id}
             });
         });$('#btn_loadall_billdetails').click(function() { var billdetailsobject = {}
         $.ajax({
-            url: "../php/billdetails.php",
+            url: "../../php/billdetails.php",
             type: "POST",
             data: {
                 "key":"getalldata",

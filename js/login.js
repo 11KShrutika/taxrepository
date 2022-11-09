@@ -16,7 +16,7 @@ $('#btn_save_login').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ login.php",
+                url: "../../php/ login.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -65,7 +65,7 @@ $('#btn_update_login').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ login.php",
+                url: "../../php/ login.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -146,7 +146,7 @@ col_3 : col_3}
         }); 
 $('#btn_load_login').click(function() { var id = $('#login_col_3').val(); var loginobject = {id : id}
             $.ajax({
-                url: "../php/login.php",
+                url: "../../php/login.php",
                 type: "POST",
                 data: {
                     "key":"getone",
@@ -172,7 +172,7 @@ $('#btn_load_login').click(function() { var id = $('#login_col_3').val(); var lo
             });
         });$('#btn_loadall_login').click(function() { var loginobject = {}
         $.ajax({
-            url: "../php/login.php",
+            url: "../../php/login.php",
             type: "POST",
             data: {
                 "key":"getalldata",

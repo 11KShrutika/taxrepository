@@ -33,7 +33,7 @@ $('#btn_save_company').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ company.php",
+                url: "../../php/ company.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -110,7 +110,7 @@ $('#btn_update_company').click(function() {
 		col_2 : col_2,
 		col_3 : col_3}
             $.ajax({
-                url: "../php/ company.php",
+                url: "../../php/ company.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -228,7 +228,7 @@ col_3 : col_3}
         }); 
 $('#btn_load_company').click(function() {  var companyobject = {id : id}
             $.ajax({
-                url: "../php/company.php",
+                url: "../../php/company.php",
                 type: "POST",
                 data: {
                     "key":"getone",
@@ -254,7 +254,7 @@ $('#btn_load_company').click(function() {  var companyobject = {id : id}
             });
         });$('#btn_loadall_company').click(function() { var companyobject = {}
         $.ajax({
-            url: "../php/company.php",
+            url: "../../php/company.php",
             type: "POST",
             data: {
                 "key":"getalldata",

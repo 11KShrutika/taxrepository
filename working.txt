@@ -1,1 +1,25 @@
 https://gist.github.com/GSmurf/1bdb102a2717c28633620a4d2719b050#file-datatables-buttons-export-excel-markdown
+
+
+import tant notes
+Don remove working code 
+List Page Add karun 
+Exel And Pdf Check karun  Zale ahe 
+navin  file  structure tayar kel each module have one folder 
+other made bakkiche  pages takale aahet 
+index la login page tevle ahe 
+add particluer seprately  not  add becuse of  not reqired 
+handle the  painding bill seen
+add pending bill  id in bill table  
+add  the  check  box for  pending bill 
+
+
+
+
+working Flow of pending bill
+if  new_bill
+    not show  bill  list dropDown
+    add bill with bill id null 
+else 
+    show  bill  list dropDown
+    add other add selected bill id 

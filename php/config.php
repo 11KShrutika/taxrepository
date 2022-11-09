@@ -1,5 +1,5 @@
 <?php
-define("_DB_","abc");
+define("_DB_","test");
 define("_DNS_","localhost"); 
 define("_USER_","root"); 					     
 define("_PASS_","root");
@@ -9,7 +9,8 @@ define("_GETALL_","getalldata");
 define("_GETONE_","getone");
 define("_AUTH_USERNAME_","shankar");
 define("_AUTH_PASSWORD_","shankar");
-define("_DELETEDATA_","deletedata");define("_TBL_BILL_DETAILS_","tbl_bill_details");
+define("_DELETEDATA_","deletedata");
+define("_TBL_BILL_DETAILS_","tbl_bill_details");
 define("_TBL_COMPANY_","tbl_company");
 define("_TBL_ITEMS_","tbl_items");
 define("_TBL_LOGIN_","tbl_login");

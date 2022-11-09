@@ -4,7 +4,7 @@ function  updaterecord(id,type){
     $(document).ready(function() {
              var userobject = {id : id}
             $.ajax({
-                url: "../php/user.php",
+                url: "../../php/user.php",
                 type: "POST",
                 data: {
                     "key":"deletedata",
@@ -39,7 +39,7 @@ dataTable.fnDestroy();
 
 function loadAllUser(){
     $.ajax({
-        url: "../php/user.php",
+        url: "../../php/user.php",
         type: "POST",
         data: {
             "key":"getalldata",
@@ -131,7 +131,7 @@ $('#btn_save_user').click(function() {
 		col_3 : ''}
         console.log(userobject);
             $.ajax({
-                url: "../php/user.php",
+                url: "../../php/user.php",
                 type: "POST",
                 data: {
                     "key":"savedata",
@@ -190,7 +190,7 @@ $('#btn_update_user').click(function() {
 		col_3 : col_3,
 		primary : primary}
             $.ajax({
-                url: "../php/ user.php",
+                url: "../../php/ user.php",
                 type: "POST",
                 data: {
                     "key":"updatedata",
@@ -231,7 +231,7 @@ $('#btn_delete_user').click(function() {
         }); 
 $('#btn_load_user').click(function() { var id = $('#user_primary').val(); var userobject = {id : id}
             $.ajax({
-                url: "../php/user.php",
+                url: "../../php/user.php",
                 type: "POST",
                 data: {
                     "key":"getone",
